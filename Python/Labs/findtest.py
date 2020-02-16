@@ -15,15 +15,16 @@ userinput = input("Enter equation:")
 print("CHECK 1. User input = ", userinput)
 
 # FIND OPERATORS:
+# Add
 findOPadd = userinput.find("+")
 print("CHECK 1.i. Add Op is in slot:", findOPadd)
-
+# Subtract
 findOPminus = userinput.find("-")
 print("CHECK 1.ii. Minus Op is in slot:", findOPminus)
-
+# Multiply
 findOPtimes = userinput.find("*")
 print("CHECK 1.iii. Times Ops is in slot:", findOPtimes)
-
+# Divide
 findOPdivide = userinput.find("/")
 print("CHECK 1.iv. Divide Ops is in slot:", findOPdivide)
 
@@ -106,4 +107,6 @@ elif  findOPdivide == 1:
     print("CHECK 5.FINAL.",num1,"*",num2, "=", divide(num1,num2))
 
 else:
-  print("PUNT!!! Input invalid")
+    print("PUNT!!! Input invalid")
+
+print("END OF LINE...")
