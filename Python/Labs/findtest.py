@@ -87,23 +87,23 @@ elif  findOPtimes == 1:
     print("CHECK 4.FINAL.",num1,"*",num2, "=", multiply(num1,num2))
 
 elif  findOPdivide == 1:
-    print("CHECK 4. Times operator,", findOPdivide)
+    print("CHECK 5. Times operator,", findOPdivide)
 
     # select stringed index to left of operator
     x = userinput[findOPdivide-1]
-    print("CHECK 4.i. User Number 1 =", x)
+    print("CHECK 5.i. User Number 1 =", x)
     # Convert string into integer.
     num1 = int(x)
-    print("CHECK 4.ii. Number 1 converted to integer =", num1)
+    print("CHECK 5.ii. Number 1 converted to integer =", num1)
 
     # select stringed index to right of operator
     y = userinput[findOPdivide+1]
-    print("CHECK 4.iii. User Number 2 =", y)
+    print("CHECK 5.iii. User Number 2 =", y)
     # Convert string into integer.
     num2 = int(y)
-    print("CHECK 4.iiv. User Number 2 converted to integer=", num2)
+    print("CHECK 5.iiv. User Number 2 converted to integer=", num2)
     # Divide integers:
-    print("CHECK 4.FINAL.",num1,"*",num2, "=", divide(num1,num2))
+    print("CHECK 5.FINAL.",num1,"*",num2, "=", divide(num1,num2))
 
 else:
   print("PUNT!!! Input invalid")
