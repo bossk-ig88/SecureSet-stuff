@@ -30,7 +30,7 @@ print("CHECK 1.iv. Operator Slot =", userslotDivide)
 
 # if Add operator slot > 1, it splits string
 if userslotAdd > 1:
-    print("Start ADD math")
+    print("START ADDITION")
     userslotAdd = userinput.split()
     print("CHECK 2. Items in slot list:", userslotAdd)
 
@@ -52,11 +52,11 @@ if userslotAdd > 1:
             print("CHECK 2.i.iii. Slot [2] =", operator, ", convereted to integer =", num2)
 
     # Adding integers:
-    print("CHECK 4. FINAL.",num1,"+",num2, "=", add(num1,num2))
+    print("CHECK 2. FINAL.",num1,"+",num2, "=", add(num1,num2))
 
 # if Subtraction operator slot > 1, it splits string
 elif userslotMinus > 1:
-    print("Start SUBTRACTION")
+    print("START SUBTRACTION")
     userslotMinus = userinput.split()
     print("CHECK 3. Items in slot list:", userslotMinus)
 
@@ -78,61 +78,61 @@ elif userslotMinus > 1:
             print("CHECK 3.i.iii. Slot [2] =", x, ", convereted to integer =", num2)
 
     # Subtract integers:
-    print("CHECK 5.FINAL.",num1,"-",num2, "=", subtract(num1,num2))
+    print("CHECK 3.FINAL.",num1,"-",num2, "=", subtract(num1,num2))
 
 # if Multiply operator slot > 1, it splits string
 elif userslotTimes > 1:
-    print("Start MULTIPLICATION")
+    print("START MULTIPLICATION")
     userslotTimes = userinput.split()
     print("CHECK 4. Items in slot list:", userslotTimes)
 
     # for slot in the Multiply equation:
     for x in userslotTimes:
-        print("CHECK 3.i. Start Minus LOOP")
+        print("CHECK 4.i. Start Minus LOOP")
         # If x is Number 1 (slot 0), convert to integer:
         if x == userslotTimes[0]:
             num1 = int(x)
-            print("CHECK 3.i.i Slot [0] =", x, ", convereted to integer =", num1)
+            print("CHECK 4.i.i Slot [0] =", x, ", convereted to integer =", num1)
         # If x is Operator (slot 1), create variable:
         elif x == userslotTimes[1]:
             operator = userslotTimes[1]
-            print("CHECK 3.i.ii Slot [1] is Operator =", operator)
+            print("CHECK 4.i.ii Slot [1] is Operator =", operator)
 
         # If x is Number 2 (slot 2), convert to integer:
         elif x == userslotTimes[2]:
             num2 = int(x)
-            print("CHECK 3.i.iii. Slot [2] =", x, ", convereted to integer =", num2)
+            print("CHECK 4.i.iii. Slot [2] =", x, ", convereted to integer =", num2)
 
     # Multiply integers:
-    print("CHECK 6.FINAL.",num1,"*",num2, "=", multiply(num1,num2))
+    print("CHECK 4.FINAL.",num1,"*",num2, "=", multiply(num1,num2))
 
 # if Divide operator slot > 1, it splits string
 elif userslotDivide > 1:
-    print("Start DIVISION")
+    print("START DIVISION")
     userslotDivide = userinput.split()
     print("CHECK 5. Items in slot list:", userslotDivide)
 
     # for slot in the Minus equation:
     for x in userslotDivide:
-        print("CHECK 3.i. Start Minus LOOP")
+        print("CHECK 5.i. Start Minus LOOP")
         # If x is Number 1 (slot 0), convert to integer:
         if x == userslotDivide[0]:
             num1 = int(x)
-            print("CHECK 3.i.i Slot [0] =", x, ", convereted to integer =", num1)
+            print("CHECK 5.i.i Slot [0] =", x, ", convereted to integer =", num1)
         # If x is Operator (slot 1), create variable:
         elif x == userslotDivide[1]:
             operator = userslotDivide[1]
-            print("CHECK 3.i.ii Slot [1] is Operator =", operator)
+            print("CHECK 5.i.ii Slot [1] is Operator =", operator)
 
         # If x is Number 2 (slot 2), convert to integer:
         elif x == userslotDivide[2]:
             num2 = int(x)
-            print("CHECK 3.i.iii. Slot [2] =", x, ", convereted to integer =", num2)
+            print("CHECK 5.i.iii. Slot [2] =", x, ", convereted to integer =", num2)
 
     # Divide integers:
-    print("CHECK 7.FINAL.",num1,"/",num2, "=", divide(num1,num2))
+    print("CHECK 5.FINAL.",num1,"/",num2, "=", divide(num1,num2))
 
 else:
-    print("CHECK 6. PUNT!")
+    print("CHECK 6. PUNT!! Why you stuck-up, half-witted, scruffy-looking Nerfherder!!!")
 
-print("END OF LINE...")
+print("Who's scruffy looking now, bitches!  END OF LINE...")

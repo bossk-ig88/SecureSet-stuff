@@ -107,6 +107,6 @@ elif  findOPdivide == 1:
     print("CHECK 5.FINAL.",num1,"*",num2, "=", divide(num1,num2))
 
 else:
-    print("PUNT!!! Input invalid")
+    print("CHECK 6. PUNT!!! You invalid!")
 
 print("END OF LINE...")
