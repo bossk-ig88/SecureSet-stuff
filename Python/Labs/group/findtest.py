@@ -1,4 +1,4 @@
-# simple calculator
+# simple calculator: Using FIND function. Spaces cause error.
 import math
 # Math Definitions
 def add(num1, num2):
@@ -30,7 +30,7 @@ print("CHECK 1.iv. Divide Ops is in slot:", findOPdivide)
 
 # If OPERATOR = "+" in SLOT 1:
 if  findOPadd == 1:
-    print("CHECK 2. Add operator,", findOPadd)
+    print("CHECK 2. ADDITION operator,", findOPadd)
 
     # select stringed index to left of operator
     x = userinput[findOPadd-1]
@@ -50,7 +50,7 @@ if  findOPadd == 1:
 
 # If OPERATOR = "-" in SLOT 1:
 elif  findOPminus == 1:
-    print("CHECK 3. Minus operator,", findOPminus)
+    print("CHECK 3. SUBTRACTION operator,", findOPminus)
 
     # select stringed index to left of operator
     x = userinput[findOPminus-1]
@@ -69,7 +69,7 @@ elif  findOPminus == 1:
     print("CHECK 3.FINAL.",num1,"-",num2, "=", subtract(num1,num2))
 
 elif  findOPtimes == 1:
-    print("CHECK 4. Times operator,", findOPtimes)
+    print("CHECK 4. MULTIPLY operator,", findOPtimes)
 
     # select stringed index to left of operator
     x = userinput[findOPtimes-1]
@@ -88,7 +88,7 @@ elif  findOPtimes == 1:
     print("CHECK 4.FINAL.",num1,"*",num2, "=", multiply(num1,num2))
 
 elif  findOPdivide == 1:
-    print("CHECK 5. Times operator,", findOPdivide)
+    print("CHECK 5. DIVISION operator,", findOPdivide)
 
     # select stringed index to left of operator
     x = userinput[findOPdivide-1]
@@ -104,7 +104,7 @@ elif  findOPdivide == 1:
     num2 = int(y)
     print("CHECK 5.iiv. User Number 2 converted to integer=", num2)
     # Divide integers:
-    print("CHECK 5.FINAL.",num1,"*",num2, "=", divide(num1,num2))
+    print("CHECK 5.FINAL.",num1,"/",num2, "=", divide(num1,num2))
 
 else:
     print("CHECK 6. PUNT!!! You invalid!")

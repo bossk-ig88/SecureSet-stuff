@@ -1,9 +1,0 @@
-#!/usr/bin/python3
-import hashlib
-mystring= "This is a string"
-
-# encoding first, then convert to Hex.
-print(hashlib.md5(mystring.encode()).hexdigest())
-
-print(hashlib.sha1(mystring.encode()).hexdigest())
-print(hashlib.sha256(mystring.encode()).hexdigest())

@@ -1,4 +1,4 @@
-# slot and split test
+# Calculator: slot and split test. Spaces accomdated and are deliminators.
 import math
 # Math Definitions
 def add(num1, num2):
